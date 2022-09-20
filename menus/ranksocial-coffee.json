@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle ranksocial-coffee",
+        "command": "ranksocial-coffee:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "ranksocial-coffee",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "ranksocial-coffee:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
